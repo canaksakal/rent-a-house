@@ -1,0 +1,21 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  margin: 10px 400px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+}
+.contact-details {
+  background-color: #ccc;
+  padding: 20px;
+}
+.contact-details ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.contact-info {
+  padding: 20px;
+}

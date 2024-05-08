@@ -1,0 +1,15 @@
+.bg-image {
+    position: relative;
+    height: 40vh;
+    background-image: url(../src/images/corner.jpeg);
+    width: 100%;
+    opacity: 0.7;
+}
+.bg-image-text{
+    position: absolute;
+    color: #322C2B;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%,-50%);
+}
