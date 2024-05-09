@@ -5,15 +5,17 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  background-color: #ccc;
+  padding: 20px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
 }
-.address-information {
+/* .address-information {
   padding: 20px;
   background-color: #ccc;
   width: 20vw;
   height: 30vh;
-}
+} */
 
 .address-card {
   padding: 20px;

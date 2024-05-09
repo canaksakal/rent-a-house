@@ -1,17 +1,15 @@
 import React from "react";
 import "./Contact.css";
 
-
-const contacts = 
-  {
-    telNo: "+90 539 887 04 20",
-    mail: "aksakalcan97@gmail.com",
-    instagram: "aksakalcn",
-    linkedin: "aksakalcan",
-    facebook: "",
-    twitter: "",
-    personalWebSite: "",
-  };
+const contacts = {
+  telNo: "+90 539 887 04 20",
+  mail: "aksakalcan97@gmail.com",
+  instagram: "aksakalcn",
+  linkedin: "aksakalcan",
+  facebook: "",
+  twitter: "",
+  personalWebSite: "",
+};
 
 const Contact = () => {
   return (
@@ -26,14 +24,14 @@ const Contact = () => {
           <li>Facebook:</li>
         </ul>
       </div>
-      <div className="contact-info">
+{/*       <div className="contact-info">
         <h3>Information</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           perferendis accusamus veniam eligendi quaerat iste non recusandae
           officia ipsa repellendus.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

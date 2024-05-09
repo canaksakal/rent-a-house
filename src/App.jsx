@@ -42,7 +42,7 @@ const images = [
   {
     src: "../src/images/bathroom.jpeg",
     id: "6",
-    desc: "bathroom",
+    desc: "Bathroom",
   },
 ];
 
