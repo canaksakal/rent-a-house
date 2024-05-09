@@ -11,12 +11,12 @@ import Footer from './components/footer/Footer'
 import Gallery from './components/gallery/Gallery'
 import Location from './components/map-location/Location'
 import Information from './components/information/Information'
-import img01 from "../images/livingroom.jpeg"
-import img02 from "../images/livingroom-2.jpeg"
-import img03 from "../images/corner.jpeg"
-import img04 from "../images/bedroom-1.jpeg"
-import img05 from "../images/bedroom-2.jpeg"
-import img06 from "../images/bathroom.jpeg"
+import img01 from "../public/images/livingroom.jpeg"
+import img02 from "../public/images/livingroom-2.jpeg"
+import img03 from "../public/images/corner.jpeg"
+import img04 from "../public/images/bedroom-1.jpeg"
+import img05 from "../public/images/bedroom-2.jpeg"
+import img06 from "../public/images/bathroom.jpeg"
 
 const images = [
   {
