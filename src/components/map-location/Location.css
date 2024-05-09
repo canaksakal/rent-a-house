@@ -1,13 +1,12 @@
-.location {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-    display: flex;
-    justify-content: center;
-    margin: 10px 400px;
-  }
-
 .map-location {
-    width: 640px;
-    height: 360px;
-  }
+  width: 60vw;
+  height: 45vh;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+}
+
+

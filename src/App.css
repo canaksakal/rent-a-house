@@ -7,4 +7,6 @@ body {
   font-family: "Times New Roman", Times, serif;
   background: #f1f1f1;
   color: #322c2b;
+  display: flex;
+  flex-direction: column;
 }
