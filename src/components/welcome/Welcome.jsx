@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Welcome.css"
 
-
 const Welcome = () => {
   return (
     <div id='welcome' className='bg-image'>
