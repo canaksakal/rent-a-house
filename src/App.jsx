@@ -11,36 +11,41 @@ import Footer from './components/footer/Footer'
 import Gallery from './components/gallery/Gallery'
 import Location from './components/map-location/Location'
 import Information from './components/information/Information'
-
+import img01 from "../src/images/livingroom.jpeg"
+import img02 from "../src/images/livingroom-2.jpeg"
+import img03 from "../src/images/corner.jpeg"
+import img04 from "../src/images/bedroom-1.jpeg"
+import img05 from "../src/images/bedroom-2.jpeg"
+import img06 from "../src/images/bathroom.jpeg"
 
 const images = [
   {
-    src: "../src/images/livingroom.jpeg",
+    src: img01,
     id: "1",
     desc: "Livingroom",
   },
   {
-    src: "../src/images/livingroom-2.jpeg",
+    src: img02,
     id: "2",
     desc: "Livingroom",
   },
   {
-    src: "../src/images/corner.jpeg",
+    src: img03,
     id: "3",
     desc: "Livingroom",
   },
   {
-    src: "../src/images/bedroom-1.jpeg",
+    src: img04,
     id: "4",
     desc: "Bedroom",
   },
   {
-    src: "../src/images/bedroom-2.jpeg",
+    src: img05,
     id: "5",
     desc: "Bedroom",
   },
   {
-    src: "../src/images/bathroom.jpeg",
+    src: img06,
     id: "6",
     desc: "Bathroom",
   },

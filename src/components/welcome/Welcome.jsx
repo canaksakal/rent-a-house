@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Welcome.css"
-
+import bannerImg from "../src/images/corner.jpeg"
 
 const Welcome = () => {
   return (
