@@ -1,10 +1,8 @@
 import React from "react";
 import "./Gallery.css";
 
-export default function App({content}) {
-  console.log(content);
+export default function App({ content }) {
   return (
-    
     <div id="gallery" className="image-gallery">
       <h2>Gallery</h2>
       <div className="image-group">

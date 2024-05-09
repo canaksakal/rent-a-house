@@ -1,15 +1,28 @@
 import React from "react";
 import "./Contact.css";
 
+
+const contacts = 
+  {
+    telNo: "+90 539 887 04 20",
+    mail: "aksakalcan97@gmail.com",
+    instagram: "aksakalcn",
+    linkedin: "aksakalcan",
+    facebook: "",
+    twitter: "",
+    personalWebSite: "",
+  };
+
 const Contact = () => {
   return (
     <div id="contact" className="contact">
       <div className="contact-details">
         <h3>Kontakt</h3>
         <ul>
-          <li>Tel No: +90 539 887 04 20</li>
-          <li>Mail: aksakalcan97@gmail.com</li>
-          <li>Instagram: aksakalcn</li>
+          <li>Phone Number: {contacts.telNo}</li>
+          <li>E-Mail: {contacts.mail}</li>
+          <li>Instagram: {contacts.instagram}</li>
+          <li>Linkedin: {contacts.linkedin}</li>
           <li>Facebook:</li>
         </ul>
       </div>
