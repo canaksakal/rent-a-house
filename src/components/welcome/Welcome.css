@@ -2,7 +2,6 @@
 .bg-image {
     position: relative;
     height: 40vh;
-    background-image: url(../images/corner.jpeg);
     width: 100%;
     opacity: 0.7;
 }
