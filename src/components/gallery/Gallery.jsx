@@ -9,7 +9,7 @@ export default function App({ content }) {
         {content?.map((image) => (
           <div className="responsive">
             <div className="gallery">
-              <a target="_blank" href="../src/images/livingroom.jpeg">
+              <a target="_blank" href={image?.src}>
                 <img src={image?.src} alt="" />
               </a>
               <div className="desc">{image?.desc}</div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Address.css";
-
+import { IconMap2 } from "@tabler/icons-react";
 const Address = () => {
   return (
     <div id="address" className="address">
@@ -15,7 +15,7 @@ const Address = () => {
         <h3>Offene Adresse</h3>
         <p>Lorem ipsum dolor sit amet.</p>
         <p>You can check map location down below.</p>
-        <a href="#location">Go to google map location.</a>
+        <a href="#location">Go to google map location. <IconMap2 /></a>
       </div>
     </div>
   );

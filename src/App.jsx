@@ -1,22 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Navbar from './components/navbar/Navbar'
-import Welcome from './components/welcome/Welcome'
-import Adress from './components/address/Address'
-import Contact from './components/contact/Contact'
-import Pricing from './components/pricing/Pricing'
-import Footer from './components/footer/Footer'
-import Gallery from './components/gallery/Gallery'
-import Location from './components/map-location/Location'
-import Information from './components/information/Information'
-import img01 from "../public/images/livingroom.jpeg"
-import img02 from "../public/images/livingroom-2.jpeg"
-import img03 from "../public/images/corner.jpeg"
-import img04 from "../public/images/bedroom-1.jpeg"
-import img05 from "../public/images/bedroom-2.jpeg"
-import img06 from "../public/images/bathroom.jpeg"
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import Navbar from "./components/navbar/Navbar";
+import Welcome from "./components/welcome/Welcome";
+import Adress from "./components/address/Address";
+import Contact from "./components/contact/Contact";
+import Pricing from "./components/pricing/Pricing";
+import Footer from "./components/footer/Footer";
+import Gallery from "./components/gallery/Gallery";
+import Location from "./components/map-location/Location";
+import Information from "./components/information/Information";
+import img01 from "../public/images/livingroom.jpeg";
+import img02 from "../public/images/livingroom-2.jpeg";
+import img03 from "../public/images/corner.jpeg";
+import img04 from "../public/images/bedroom-1.jpeg";
+import img05 from "../public/images/bedroom-2.jpeg";
+import img06 from "../public/images/bathroom.jpeg";
 
 const images = [
   {
@@ -51,9 +51,8 @@ const images = [
   },
 ];
 
-
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div>
@@ -65,9 +64,9 @@ function App() {
       <Gallery content={images} />
       <Pricing />
       <Location />
-      <Footer /> 
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
