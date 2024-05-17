@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ navLinks }) => {
   return (
     <header className="header">
       <div className="head-wrap">
@@ -9,11 +9,9 @@ const Navbar = () => {
           Ringlers' Haus
         </a>
         <nav className="navbar">
-          <a href="#welcome">Heim</a>
-          <a href="#gallery">Galerie</a>
-          <a href="#contact">Kontakt</a>
-          <a href="#address">Adresse</a>
-          <a href="#pricing">Preisgestaltung</a>
+          {navLinks?.map((links) => (
+            <a href={`#${links?.href}`}>{links?.header}</a>
+          ))}
         </nav>
       </div>
     </header>

@@ -10,6 +10,13 @@
   padding: 20px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
 }
+
+/* .iconWrapper{
+  border: 2px solid black ;
+  border-radius: 500%;
+  background-color: black;
+} */
+
 /* .contact-details {
   padding: 20px;
   background-color: #ccc;

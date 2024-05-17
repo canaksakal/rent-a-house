@@ -11,57 +11,19 @@ import Footer from "./components/footer/Footer";
 import Gallery from "./components/gallery/Gallery";
 import Location from "./components/map-location/Location";
 import Information from "./components/information/Information";
-import img01 from "../public/images/livingroom.jpeg";
-import img02 from "../public/images/livingroom-2.jpeg";
-import img03 from "../public/images/corner.jpeg";
-import img04 from "../public/images/bedroom-1.jpeg";
-import img05 from "../public/images/bedroom-2.jpeg";
-import img06 from "../public/images/bathroom.jpeg";
-
-const images = [
-  {
-    src: img01,
-    id: "1",
-    desc: "Livingroom",
-  },
-  {
-    src: img02,
-    id: "2",
-    desc: "Livingroom",
-  },
-  {
-    src: img03,
-    id: "3",
-    desc: "Livingroom",
-  },
-  {
-    src: img04,
-    id: "4",
-    desc: "Bedroom",
-  },
-  {
-    src: img05,
-    id: "5",
-    desc: "Bedroom",
-  },
-  {
-    src: img06,
-    id: "6",
-    desc: "Bathroom",
-  },
-];
+import galleryData from "./components/gallery/gallery-data";
+import navbarData from "./components/navbar/navbar-data";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <div>
       <Welcome />
-      <Navbar />
+      <Navbar navLinks={navbarData}/>
       <Information />
       <Adress />
       <Contact />
-      <Gallery content={images} />
+      <Gallery content={galleryData} />
       <Pricing />
       <Location />
       <Footer />

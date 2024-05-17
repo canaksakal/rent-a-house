@@ -1,6 +1,10 @@
 import React from "react";
 import "./Contact.css";
-import { IconBrandInstagram, IconPhoneFilled, IconMailFilled } from "@tabler/icons-react";
+import {
+  IconBrandInstagram,
+  IconPhoneFilled,
+  IconMailFilled,
+} from "@tabler/icons-react";
 
 /* const contacts = {
   telNo: "+90 539 887 04 20",
@@ -19,19 +23,20 @@ const Contact = () => {
         <h3>Kontakt</h3>
         <span className="headSecond">
           <ul className="headList">
-            <li>
+            <li className="iconWrapper">
               <a href="https://www.linkedin.com/in/aksakalcan/">
-                <IconPhoneFilled /> <p>Phone Number</p>
+                <IconPhoneFilled /> Phone Number
               </a>
+              
             </li>
             <li>
               <a href="https://www.instagram.com/aksakalcn/">
-                <IconBrandInstagram /> <p>Instagram</p>
+                <IconBrandInstagram /> Instagram
               </a>
             </li>
             <li>
               <a href="https://twitter.com/garbagecn">
-                <IconMailFilled /> <p>mail</p>
+                <IconMailFilled /> Mail
               </a>
             </li>
           </ul>
